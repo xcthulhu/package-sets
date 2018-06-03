@@ -1766,6 +1766,18 @@
     "repo": "https://github.com/purescript-contrib/purescript-react.git",
     "version": "v5.1.0"
   },
+  "react-basic": {
+    "dependencies": [
+      "eff",
+      "functions",
+      "nullable",
+      "record",
+      "typelevel-prelude",
+      "unsafe-coerce"
+    ],
+    "repo": "git://github.com/lumihq/purescript-react-basic.git",
+    "version": "v0.10.2"
+  },
   "react-dom": {
     "dependencies": [
       "dom",
@@ -1774,6 +1786,16 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-react-dom.git",
     "version": "v5.0.0"
+  },
+  "react-redux": {
+    "dependencies": [
+      "monoid",
+      "nullable",
+      "react",
+      "strings"
+    ],
+    "repo": "git://github.com/ethul/purescript-react-redux.git",
+    "version": "v6.1.0"
   },
   "reactnative": {
     "dependencies": [
@@ -1808,6 +1830,20 @@
     ],
     "repo": "https://github.com/mbuszka/purescript-record-fold.git",
     "version": "v0.1.0"
+  },
+  "redux-saga": {
+    "dependencies": [
+      "aff",
+      "console",
+      "io",
+      "pipes",
+      "pipes-aff",
+      "prelude",
+      "react-redux",
+      "safely"
+    ],
+    "repo": "git://github.com/felixschl/purescript-redux-saga.git",
+    "version": "v1.0.0"
   },
   "reflection": {
     "dependencies": [
